@@ -1,0 +1,105 @@
+.dashboard__container{
+    padding: 1rem 2rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+.title button{
+    border: none;
+    background-color: #213547;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.dashboard__container button{
+    padding: 10px 30px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.dashboard__container .addEmployee__btn{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+/*Start Tabel CSS */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  
+}
+table td, table th{
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: center;
+}
+table th{
+    background-color: #2b609d;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+/*End Tabel CSS */
+
+.btn__prev_And_next{
+    width: 20%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn__prev_And_next p{
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.btn__prev_And_next button{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+}
+.modify__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.modify__btn button{
+    background-color: #db3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 15px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterd-section{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.websiteLink a{
+    background-color: white;
+    color: black;
+}
+.modify__btn__dash{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+}
+.modify__btn__dash button{
+    background-color: #db3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
