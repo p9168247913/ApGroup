@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 
+
 const companySchema = mongoose.Schema({
     companyName: String,
     logoUrl: String,
