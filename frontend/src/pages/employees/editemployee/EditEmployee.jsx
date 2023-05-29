@@ -15,7 +15,7 @@ const EditEmployee = () => {
 
   const handelUpdateEmployeeFormSubmit = (e) =>{
     e.preventDefault()
-    axios.patch(`http://localhost:5000/employee/update/${id}`, singleEmployee).then(res=>{
+    axios.post(`http://localhost:5000/employee/update/${id}`, singleEmployee).then(res=>{
       alert("Data Update Sucessfully!")
       navigate("/dashboard")
     }).catch(err=>{

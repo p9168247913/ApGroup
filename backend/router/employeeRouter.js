@@ -25,7 +25,7 @@ employeeRoute.post("/add", async (req, res) => {
     }
 });
 
-employeeRoute.patch("/update/:id", async (req, res) => {
+employeeRoute.post("/update/:id", async (req, res) => {
     const id = req.params.id;
     try {
         const payload = req.body

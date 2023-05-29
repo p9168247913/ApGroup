@@ -28,6 +28,7 @@ app.use(auth)
 app.listen(process.env.port, async () => {
   try {
     await connection;
+    
     console.log("Connected to Mongo Atlas");
   } catch (err) {
     console.log(err)
